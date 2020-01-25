@@ -1,10 +1,5 @@
 * {
-    font-family: 'Work Sans';
-}
-
-main {
-    display: table;
-    width: 100%;
+    font-family: 'Work Sans', sans;
 }
 
 .h-content {
@@ -19,6 +14,7 @@ nav a {
 }
 
 .navbar {
+    width: 100%;
     padding-top: 2.5%;
     background-color: #98b197;
     color: #ffffff;
@@ -55,5 +51,34 @@ header {
     height: 90vh;
     position: absolute;
     top: inherit;
+    left: 0;
     background-image: linear-gradient(#98b197, #98b19700);
+}
+
+main {
+    margin-top: 2.5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+main img {
+    height: 280px;
+}
+
+.container-safe {
+    height: 280px;
+}
+
+aside {
+    float: left;
+    position: sticky;
+    top: 10%;
+}
+
+.row {
+    margin-bottom: 5%;
+}
+
+aside a {
+    color: #98b197;
 }
