@@ -1,0 +1,59 @@
+* {
+    font-family: 'Work Sans';
+}
+
+main {
+    display: table;
+    width: 100%;
+}
+
+.h-content {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+}
+
+nav a {
+    color: #464646;
+}
+
+.navbar {
+    padding-top: 2.5%;
+    background-color: #98b197;
+    color: #ffffff;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-weight: 900;
+}
+
+.btn--webams {
+    background-color: #98b197;
+    color: #ffffff;
+}
+
+.btn-secondary--webams {
+    background-color: #464646;
+    color: #ffffff;
+}
+
+header {
+    display: table;
+    background-image: url('./../images/header.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 150%;
+    background-position: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+}
+
+.header-gradient {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: inherit;
+    background-image: linear-gradient(#98b197, #98b19700);
+}
