@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 * {
     font-family: 'Work Sans', sans;
 }
@@ -62,7 +65,7 @@ main {
 }
 
 main img {
-    height: 280px;
+    width: 240px;
 }
 
 .container-safe {
@@ -75,10 +78,62 @@ aside {
     top: 10%;
 }
 
-.row {
-    margin-bottom: 5%;
-}
+
 
 aside a {
     color: #98b197;
 }
+
+.team-section {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.profile {
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 100pt;
+    background-color: #98b197;
+    color: #555555;
+    text-align: center;
+}
+
+.profile:hover>.profile--name{
+    transform: scale(1.2);
+    position: relative;
+    color: #fff;
+    top: 80px;
+    transition-duration: 500ms;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+} 
+.profile:hover>.profile--role {
+    display: none;
+}
+
+.profile--name {
+    margin-top: 60px;
+    font-weight: 600;
+    display: block;
+}
+
+.row {
+    margin-bottom: 5%;
+    height: max-content;
+}
+
+.profile--role {
+    color: #fff;
+    margin-top: 10px;
+    display: block;
+}
+.p1:hover { background-image: url('./../images/aniket.jpeg'); }
+.p2:hover { background-image: url('./../images/jyoti.jpeg'); }
+.p3:hover { background-image: url('./../images/stuti.jpeg'); }
+.p4:hover { background-image: url('./../images/niharika.jpeg'); }
+.p5:hover { background-image: url('./../images/swastik.jpeg'); }
+.p6:hover { background-image: url('./../images/saloni.jpeg'); }
