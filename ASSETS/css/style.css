@@ -101,6 +101,7 @@ aside a {
     background-color: #98b197;
     color: #555555;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .profile:hover>.profile--name{
