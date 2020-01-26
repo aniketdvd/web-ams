@@ -95,8 +95,7 @@ aside a {
     margin-left: auto;
     margin-right: auto;
     height: 200px;
-    min-width: 200px;
-    max-width: 200px;
+    width: 200px;
     border-radius: 100pt;
     background-color: #98b197;
     color: #555555;
