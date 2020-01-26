@@ -132,8 +132,8 @@ aside a {
     display: block;
 }
 .p1:hover { background-image: url('./../images/aniket.jpeg'); }
-.p2:hover { background-image: url('./../images/jyoti.jpeg'); }
-.p3:hover { background-image: url('./../images/stuti.jpeg'); }
-.p4:hover { background-image: url('./../images/niharika.jpeg'); }
-.p5:hover { background-image: url('./../images/swastik.jpeg'); }
-.p6:hover { background-image: url('./../images/saloni.jpeg'); }
+.p2:hover { background-image: url('./../images/jyoti.jpg'); }
+.p3:hover { background-image: url('./../images/stuti.jpg'); }
+.p4:hover { background-image: url('./../images/niharika.jpg'); }
+.p5:hover { background-image: url('./../images/swastik.jpg'); }
+.p6:hover { background-image: url('./../images/saloni.jpg'); }
