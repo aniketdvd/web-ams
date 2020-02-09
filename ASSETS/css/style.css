@@ -97,7 +97,7 @@ aside a {
     height: 200px;
     width: 200px;
     border-radius: 100pt;
-    background-color: #98b197;
+    background-image: linear-gradient(45deg, #98b197, #a9c3b9);
     color: #555555;
     text-align: center;
     margin-bottom: 20px;
@@ -137,3 +137,25 @@ aside a {
 .p4:hover { background-image: url('./../images/niharika.jpg'); }
 .p5:hover { background-image: url('./../images/swastik.jpg'); }
 .p6:hover { background-image: url('./../images/saloni.jpg'); }
+
+footer {
+    position: sticky;
+    bottom: -999px;
+    background-image: linear-gradient(#4b4b4b, #555555, #555555);
+    padding: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-section-2 {
+    padding: 10px;
+    background-color: #555555;
+}
+
+#footer-col {
+    padding-left: 50px;
+}
+
+#footer-col a {
+    color: rgba(255, 255, 255, 0.9);
+}
